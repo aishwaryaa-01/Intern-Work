@@ -17,5 +17,5 @@ Story telling with those analytics provides complete explanation of the dataset.
 - Summarized Story
 
 Author:
-1. Prasansha Satpathy
-2. Vivek Gagiya
+1. Prasansha Satpathy  
+2. Vivek Gagiya 
