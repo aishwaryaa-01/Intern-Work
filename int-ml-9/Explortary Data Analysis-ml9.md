@@ -91,25 +91,25 @@ General plots used are :
 ```
 sns.histplot(data = data, x  = 'platelets')
 ```
-![](https://in.pinterest.com/ef1310b8-a83b-410b-a34d-e3f326d9b663) 
+![](https://i.pinimg.com/originals/d6/3e/a6/d63ea676d6da5e50831590f423fa41ef.jpg) 
 
 3. Scatter plot
 ```
 sns.scatterplot(data = data, x  = 'age', y = 'platelets' )
 ```
-![](https://in.pinterest.com/58af545d-e26d-42df-a8ff-d712cb4ad2d5)
+![](https://i.pinimg.com/originals/7d/c3/21/7dc32143fb82ff445b76341311f14b65.jpg)
 
 5. Bar Plot
 ```
 sns.barplot(data = data.head(), x  = 'age', y = 'creatinine_phosphokinase' )
 ```
-![](https://in.pinterest.com/43a32bc6-b448-4689-a4bc-ac79b1ee33be)
+![](https://i.pinimg.com/originals/ae/b4/fa/aeb4fa3a4783679bbbc0315d24817732.jpg)
 
 7. line plot
 ```
 sns.lineplot(data = data, x  = 'age', y = 'creatinine_phosphokinase' )
 ```
-![](https://in.pinterest.com/1494c268-4f5b-456a-aba7-e053ad49be84)
+![](https://i.pinimg.com/originals/24/01/9e/24019e4dc6f77b43d628a3941b9d9c22.jpg)
 
 8. pie chart
 ```
@@ -120,7 +120,7 @@ plt.pie(percent.values, labels = val,autopct="%1.1f%%")
 plt.legend()
 plt.show()
 ```
-![](https://in.pinterest.com/pin/698761698439764229/)
+![](https://i.pinimg.com/originals/fb/32/c6/fb32c65ea22329297004995ef5e6e771.jpg)
 
 10. box plot
 11. Density plot
