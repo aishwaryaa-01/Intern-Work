@@ -46,6 +46,7 @@ When the data has multiple variable, but graphically representations.
 Multivariate data uses graphics to display relationships between two or more sets of data. The most used graphic is a grouped bar plot or bar chart with each group representing one level of one of the variables and each bar within a group representing the levels of the other variable.
 
 ## Some Important components:-
+
 Some important components od EDA that makes the analyisis efficient.
 #### 1. Data selection/collection and quality
 #### 2. Statistical analysis
@@ -87,12 +88,42 @@ Interval estimates are used to create a range of values within which a variable 
 This is again a main component that provides insights graphically provides more patterns for understanding the dataset.
 General plots used are :
 1. Histogram
-2. Scatter plot
-3. Bar Plot
-4. line plot
-5. pie chart
-6. box plot
-7. Density plot
+```
+sns.histplot(data = data, x  = 'platelets')
+```
+![](blob:https://in.pinterest.com/ef1310b8-a83b-410b-a34d-e3f326d9b663) 
+
+3. Scatter plot
+```
+sns.scatterplot(data = data, x  = 'age', y = 'platelets' )
+```
+![](blob:https://in.pinterest.com/58af545d-e26d-42df-a8ff-d712cb4ad2d5)
+
+5. Bar Plot
+```
+sns.barplot(data = data.head(), x  = 'age', y = 'creatinine_phosphokinase' )
+```
+![](blob:https://in.pinterest.com/43a32bc6-b448-4689-a4bc-ac79b1ee33be)
+
+7. line plot
+```
+sns.lineplot(data = data, x  = 'age', y = 'creatinine_phosphokinase' )
+```
+![](blob:https://in.pinterest.com/1494c268-4f5b-456a-aba7-e053ad49be84)
+
+8. pie chart
+```
+plt.figure(figsize= (4,4))
+percent = data['DEATH_EVENT'].value_counts()
+val = percent.index
+plt.pie(percent.values, labels = val,autopct="%1.1f%%")
+plt.legend()
+plt.show()
+```
+![](blob:https://in.pinterest.com/59872522-0a7b-429c-b4fc-9a40d2513c50)
+
+10. box plot
+11. Density plot
        ....and more
 
 Some Libraries used:
