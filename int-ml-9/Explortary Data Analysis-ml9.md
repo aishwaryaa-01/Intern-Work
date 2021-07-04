@@ -120,7 +120,7 @@ plt.pie(percent.values, labels = val,autopct="%1.1f%%")
 plt.legend()
 plt.show()
 ```
-![](https://in.pinterest.com/59872522-0a7b-429c-b4fc-9a40d2513c50)
+![](https://in.pinterest.com/pin/698761698439764229/)
 
 10. box plot
 11. Density plot
