@@ -5,7 +5,7 @@ The file provides a overview of EDA and its components, recognising patterns, sp
 Story telling with those analytics provides complete explanation of the dataset.
 
 
-- What is it?
+- What is it..
 - Types of exploratory data analysis
 - Some Important components
 - Data selection/collection and quality
@@ -19,3 +19,5 @@ Story telling with those analytics provides complete explanation of the dataset.
 Author:
 1. Prasansha Satpathy  
 2. Vivek Gagiya 
+
+
