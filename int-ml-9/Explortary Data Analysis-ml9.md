@@ -1,6 +1,8 @@
 # Explortary Data Analysis
 _Analyze and Summarize Data_
 
+![](https://i.pinimg.com/474x/90/8a/7d/908a7dbe1cc473f9508df70ff869c056.jpg)
+
 ## What is it?
 EDA or Explortary data analysis is an important concept for Machine Learning for ensuring the data analysis and processing before the training. Originally developed by American mathematician John Tukey in the 1970s, EDA techniques continue to be a widely used method in the data discovery process today.
 
@@ -21,6 +23,7 @@ including machine learning.
 Recognising patterns,spot anomalies,test hypothesis and to check assumptions with the help of summary statistics and graphical representations are the jest of EDA.
 
 ## Types of exploratory data analysis
+
 Four types of EDA:
 #### 1. Univariate graphical
 When the data has only one variable, but done with graphical representations.
@@ -70,14 +73,6 @@ All such parameters are important for statistical testing.They provide insights 
 Here we can see *describe method* is used which provides the normal statistical insights on every attribute of the tabular dataset present here.
 ![](https://i.pinimg.com/564x/f4/23/c5/f423c5d38679a4f7f7c4e22c4e81a78b.jpg)
 
-> 
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
-
 ## Quantitative Test
 
 Quantitative EDA techniques provide a more rigorous method of determining the key properties of a dataset. Two of the most important of these techniques are
@@ -114,10 +109,6 @@ Some Libraries used:
 10. Leather
 
 All these libraries helps in providing space for graphical respresentations, to clarify things visually.
-
-
-
-
 
 ```
 import matplotlib.pyplot as plt 
