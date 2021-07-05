@@ -14,7 +14,8 @@ Feature Scaling helps to bring all independent features in same standing or basi
 
 Sometimes, Feature Scaling also helps by increasing the speed of calculations in an algorithm. 
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+![feature_scaling](https://user-images.githubusercontent.com/77339904/124462241-2255dd80-ddaf-11eb-9bba-c4d95ede3cec.jpeg)
+
 
 Package Used:
      sklearn.preprocessing
@@ -44,7 +45,8 @@ Normalization is also known as min-max scaling or min-max normalization.
 It is one of the simplest method used for scaling. So, Normalization is used to rescaled the range of  variables/ features to scale the range in [0,1].
 Formula for Normalization is given as:
 
-![Image of normalization](https://github.com/imagess/normalization.jpeg)
+![normalization](https://user-images.githubusercontent.com/77339904/124462246-24b83780-ddaf-11eb-96c4-15bdf546f99a.jpeg)
+
  
  Here, max (x) and min (x) are the maximum and minimum values of the features. 
 
@@ -57,12 +59,10 @@ Popular example of date Normalization is Image Processing, where pixel intensiti
 Standardization is another scaling technique where the values are standard around mean with a unit Standard Deviation. 
 Standardization is helpful in cases where data follows a Gaussian distribution. Standardization  does not  have specific ranges.
 
+![standardization](https://user-images.githubusercontent.com/77339904/124462249-2550ce00-ddaf-11eb-8e3a-a5e5d5c85049.jpeg)
 
-![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
 
- 
-
-standard deviation of feature vector. 
+ standard deviation of feature vector. 
 x is the average of the features .
 
 
