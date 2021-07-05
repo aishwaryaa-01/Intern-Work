@@ -6,9 +6,6 @@
  no. | Name
 -----|-------
 1 | Aishwarya Pandey
-2 | Arpit Dwivedi
-3 | Santosh Reddy
-4 | Dinesh Jagtap
 
 
 * About the topic:
