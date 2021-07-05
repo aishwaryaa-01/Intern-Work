@@ -12,7 +12,7 @@
 
 
 * About the topic:
-    * This Topic consist of [Feature Scaling](http://github.com/aishwaryaa-01/Intern-Work/edit/main/int-ml-8/Feature Scaling.md)
+    * This Topic consist of [Feature Scaling](http://github.com/aishwaryaa-01/Intern-Work/edit/main/int-ml-8/Feature_Scaling.md)
     * Contents:
     
  (1) What is Feature Scaling?
