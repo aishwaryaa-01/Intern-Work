@@ -38,6 +38,7 @@ from sklearn.preprocessing import StandardScaler
 Now, since you have got an idea of what is Feature Scaling .
 
 **Let us explore what methods are available for doing Feature Scaling:**
+## Methods of Feature Scaling:
 
 ### 1. Normalization:
 
