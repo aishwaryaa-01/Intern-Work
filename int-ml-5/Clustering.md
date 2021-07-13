@@ -142,9 +142,9 @@ Search engines uses clustering algorithm to group similar objects together that 
 6. K-means clustering techniques can be used to identify spam emails.
 7.Clustering algorithm helps us by predicting earthquake - affected areas and by grouping some dangerous zones and less dangerous zones.
 
-
-
-
+### Misc...
+Examplar model notebook link
+https://www.kaggle.com/prasanshasatpathy/clustering-unsupervised
 
 
 
