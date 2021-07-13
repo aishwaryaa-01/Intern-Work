@@ -120,6 +120,7 @@ brc.fit(X)
 ### Guassian Mixture
 Gaussian Mixture Models assume that there are a certain number of Gaussian distributions, and each of these distributions represent a cluster.
 
+
 ## APPLICATIONS OF CLUSTERING ALGORITHMS
 
 ![](https://i.pinimg.com/originals/3f/fb/47/3ffb4706ce0c6be3cf6ca51c8759f89f.jpg)
