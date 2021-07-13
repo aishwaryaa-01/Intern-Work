@@ -1,5 +1,5 @@
 # CLUSTERING
-Unsupervised Learning
+Its Unsupervised Learning, providing insights on categories and groups that the dataset can fit into... 
 ![](https://i.pinimg.com/originals/ce/f2/18/cef218767880fc469a41ca739b0a2539.jpg)
 
 ## INTRODUCTION:
