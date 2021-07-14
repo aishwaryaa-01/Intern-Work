@@ -12,7 +12,7 @@ Bunch is that the task of dividing the population or data points into variety of
 2. Affinity propagation
 3. Mean Shift
 4. Spectral Clustering
-5. Ward Hierarchical clustering
+5. Hierarchical clustering
 6. DBSCAN
 7. OPTICS
 8. Guassian Matrix
