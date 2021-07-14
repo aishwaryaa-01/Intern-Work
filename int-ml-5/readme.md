@@ -1,4 +1,5 @@
 # CLUSTERING
+
 ![](https://i.pinimg.com/originals/ce/f2/18/cef218767880fc469a41ca739b0a2539.jpg)
 
 
@@ -15,33 +16,36 @@
 
 * About the topic:
     * This Topic consist of [Clustering](http://github.com/Sara-cos/Intern-Work/edit/main/int-ml-5/Clustering.md)
-    * Contents:
+    
+## **Contents:**
     
  (1) Introduction
  
  (2) Types of Algorithms:
  
- K-means
+ - K-means
  
- Affinity Propagation
+ - Affinity Propagation
  
- Mean Shift
+ - Mean Shift
  
- Spectral Clustering
+ - Spectral Clustering
  
- Ward Heirarchical Clustering
+ - Heirarchical Clustering
  
- DBSCAN
+ - DBSCAN
  
- OPTICS
+ - OPTICS
  
- BIRCH
+ - BIRCH
  
- Guassian Matrix
+ - Guassian Matrix
  
  (3) Applications of Clustering Algorithms.
  
  
+ 
+ The notebook uses the Wine.csv dataset for implementing all the algorithms mentioned above.
  
  
 
@@ -54,4 +58,4 @@
  * Vivek Gagiya (Introduction, Edit)
 
 
-** All the Images are original and not taken from any source. They are all uploaded from author's pinterest account.
+** Note: All the Images are original and not taken from any source. They are all uploaded by author in pinterest and taken from author's pinterest account.
