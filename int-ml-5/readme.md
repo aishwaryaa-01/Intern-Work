@@ -52,3 +52,6 @@
  * Aishwarya Pandey (Applications, Readme Edit)
 
  * Vivek Gagiya (Introduction, Edit)
+
+
+** All the Images are original and not taken from any source. They are all uploaded from author's pinterest account.
