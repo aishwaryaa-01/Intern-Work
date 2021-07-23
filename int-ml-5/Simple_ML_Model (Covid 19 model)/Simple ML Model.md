@@ -19,40 +19,54 @@ There are total 278594 entries are present in the dataset, with mixed data types
 
 **Note** : All the data types in the dataset are converted to numerical values before going through any training to form a model.
 
-![](Simple_ML_Model (Covid 19 model)\Images\)
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Data%20Types%20ML.png)
 
 Here we can see there are a number of datatypes when they are collected originally which changes to **numerical eventually** with various techniques.
 
 #### Let's check the dataset first...
 
 Going through the dataset, its 9 attribute and more than 250000 rows
+
 ```
 data.head()
 ```
-![](\Images\)
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Dataset.png)
+
+
+
+Decribing the dataset provides these insights...
+
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Describe.png)
+
+
 
 The dataset has numerical and text values, let's see what are the categories in the textual values.
 
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Desc_1.png)
 
-![]()
 
 And it's very clear how the data is distribution, with focus on normalised numerical data type.
 
 ```
 sns.countplot(final_data['corona_result'])
 ```
-![](\)
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Count_cases.png)
 The results show that its not that prominent that the result is positive all the time, rather insterestingly its negetive maximum time.
 
 ```
 sns.barplot(final_data['fever'], final_data['corona_result'])
 ```
-![]()
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Fever_count.png)
+
 Here we can see that fever contributes to fair amount of possibility of postive result of COVID 19 giving the insight that it is one of the major factor.
+
+
+
 ```
 sns.barplot(final_data['shortness_of_breath'], final_data['corona_result'])
 ```
-![]()
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Shortness_breath.png)
+
 Shortness of breathing provides a strong response here. We can see that the positiveness of the test is majorly affected by the attribute of breathlessness
 
 ## Model training
@@ -141,3 +155,9 @@ scores_dict['DecisionTreeClassifier'] = accuracy_dt * 100
 ```
 **DecisionTree accuracy_score:  0.9565857247976454**
 
+
+### The final results and accuracy
+
+We got the accuracy of from all the 3 algorithms used and highest with very small cut difference was random tree forest with about 95.674%
+
+![](https://github.com/Sara-cos/Intern-Work/blob/main/int-ml-5/Simple_ML_Model%20(Covid%2019%20model)/Images/Score.png)
